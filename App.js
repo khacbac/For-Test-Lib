@@ -105,7 +105,7 @@ export default class App extends Component<Props> {
       })
       .catch((err) => {
         console.log("BACHK_error: ", err);
-      }) 
+      });
   }
 
   render() {
